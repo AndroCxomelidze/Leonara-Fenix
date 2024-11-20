@@ -1,0 +1,99 @@
+body {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2c1a3d, #422c6e);
+    color: #f0e8ff;
+    line-height: 1.8;
+}
+
+.hero-page {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgba(44, 26, 61, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(66, 44, 110, 0.6);
+    border: 1px solid #61378d;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #dabaff;
+    text-shadow: 2px 2px 8px rgba(191, 151, 240, 0.7);
+}
+
+.hero-video {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hero-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #7342a3;
+    box-shadow: 0 6px 12px rgba(115, 66, 163, 0.5);
+}
+
+.hero-info, .hero-abilities, .hero-powers {
+    margin-bottom: 15px;
+    background: rgba(58, 38, 83, 0.95);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #825ab6;
+    box-shadow: 0 4px 8px rgba(50, 29, 70, 0.4);
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #e4d1ff;
+    text-shadow: 1px 1px 5px rgba(221, 186, 255, 0.6);
+}
+
+p, ul {
+    font-size: 0.9rem;
+    color: #f5eaff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding: 6px;
+    background: #442c6e;
+    border-radius: 5px;
+    color: #dcc3ff;
+    border-left: 4px solid #7342a3;
+}
+
+/* iPhone SE Specific Media Query */
+@media (max-width: 375px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-video video {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    p, ul li {
+        font-size: 0.85rem;
+    }
+
+    .hero-info, .hero-abilities, .hero-powers {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
